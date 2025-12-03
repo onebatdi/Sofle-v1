@@ -35,8 +35,8 @@ layers:
   - D
   - F
   - G
-  - X
-  - X
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - H
   - J
   - K

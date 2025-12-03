@@ -112,7 +112,7 @@
 &kp LGUI   &kp LALT  &kp LCTRL  &lt 1 BACKSPACE  &kp RET  &kp RET  &kp DOWN   &mmv MOVE_DOWN   &kp RET  &kp SPACE  &lt 1 DEL  &kp LCTRL  &kp LALT  &kp LGUI
             >;
 
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_D_U>;
+            sensor-bindings = <&Scroll_D_U>, <&Scroll_LR>;
         };
 
         lower_layer {

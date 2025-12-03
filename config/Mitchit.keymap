@@ -112,9 +112,7 @@
 &kp LGUI   &kp LALT   &kp DEL    &kp SPACE  &kp SPACE  &kp RET    &kp DOWN   &mmv MOVE_DOWN   &kp RET    &kp SPACE  &kp SPACE        &kp BACKSPACE  &kp LALT    &kp RIGHT_CONTROL
             >;
 
-            sensor-bindings =
-                <&Scroll_D_U>,
-                <&inc_dec_kp LC(PLUS) LC(KP_MINUS)>;
+            sensor-bindings = <&Scroll_D_U>, <&Scroll_LR>;
         };
 
         lower_layer {

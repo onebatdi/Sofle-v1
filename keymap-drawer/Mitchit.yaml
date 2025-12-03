@@ -70,7 +70,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
-  - LGUI
+  - $$mdi:apple-keyboard-control$$
   Lower Layer:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$

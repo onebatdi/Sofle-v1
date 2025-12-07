@@ -33,12 +33,12 @@ layers:
   - A
   - S
   - D
-  - F
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - H
-  - J
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - K
   - L
   - {t: ;, h: ':', s: ':'}

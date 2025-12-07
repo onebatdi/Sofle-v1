@@ -98,8 +98,8 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '[', h: '{', s: '{'}
+  - {t: ']', h: '}', s: '}'}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -109,8 +109,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - {t: '[', h: '{', s: '{'}
+  - {t: ']', h: '}', s: '}'}
   - {t: '6', s: ^}
   - {t: \, s: '|'}
   - {t: /, s: '?'}

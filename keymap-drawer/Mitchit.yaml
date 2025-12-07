@@ -30,17 +30,17 @@ layers:
   - P
   - {t: '=', s: +}
   - {t: '$$mdi:apple-keyboard-caps$$', h: Lower Layer}
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - H
-  - J
-  - K
-  - L
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ;, h: ':', s: ':'}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:apple-keyboard-shift$$
@@ -66,7 +66,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:keyboard-return$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:backspace$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$

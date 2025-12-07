@@ -42,7 +42,7 @@ layers:
   - K
   - L
   - {t: ;, h: ':', s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X

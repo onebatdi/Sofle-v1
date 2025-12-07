@@ -30,18 +30,18 @@ layers:
   - P
   - {t: '=', s: +}
   - {t: '$$mdi:apple-keyboard-caps$$', h: Lower Layer}
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - A
   - S
   - D
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - G
+  - {t: G, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - H
+  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - K
   - L
-  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
+  - {t: ;, h: ':', s: ':'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-shift$$
   - Z

@@ -28,7 +28,7 @@ layers:
   - I
   - O
   - P
-  - {t: '=', s: +}
+  - {t: KP EQUAL, h: +}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -68,7 +68,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   Lower Layer:

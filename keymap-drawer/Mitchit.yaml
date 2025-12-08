@@ -8,13 +8,13 @@ layers:
   - {t: '4', h: F4, s: $}
   - {t: '5', h: F5, s: '%'}
   - $$mdi:arrow-up-bold$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '6', h: F6, s: ^}
   - {t: '7', h: F7, s: '&'}
   - {t: '8', h: F8}
   - {t: '9', h: F9, s: (}
   - {t: '0', h: F10, s: )}
-  - {t: '-', s: _}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -60,16 +60,16 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: Lower Layer}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   Lower Layer:
   - $$mdi:keyboard-space$$
@@ -85,7 +85,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - {t: KP MINUS, h: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -108,7 +108,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
+  - {t: KP MINUS, h: _}
   - {t: '[', h: '{', s: '{'}
   - {t: ']', h: '}', s: '}'}
   - {t: '6', s: ^}
@@ -131,7 +131,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB3'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}

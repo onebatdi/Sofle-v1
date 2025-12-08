@@ -28,7 +28,7 @@ layers:
   - I
   - O
   - P
-  - {t: '=', s: +}
+  - {t: KP EQUAL, h: +}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S

@@ -61,13 +61,13 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:backspace-reverse-outline$$
   - Lower Layer
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:keyboard-return$$'}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
@@ -103,14 +103,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: KP MINUS, h: _}
-  - {t: '[', h: '{', s: '{'}
-  - {t: ']', h: '}', s: '}'}
+  - {t: '[', h: '{', s: '{', type: held alternate}
+  - {t: ']', h: '}', s: '}', type: held alternate}
   - {t: '6', s: ^}
   - {t: \, s: '|'}
   - {t: '''', h: '"', s: '"'}
@@ -289,6 +289,6 @@ combos:
   k: BT CLR ALL
   l: [Lower Layer]
 - p: [31, 32]
-  k: $$mdi:apple-keyboard-shift$$
+  k: Lower Layer
 - p: [38, 37]
-  k: $$mdi:apple-keyboard-shift$$
+  k: Lower Layer

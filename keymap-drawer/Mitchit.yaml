@@ -2,18 +2,18 @@ layout: {zmk_keyboard: Mitchit}
 layers:
   Default Layer:
   - $$mdi:keyboard-esc$$
-  - {t: KP 1, h: '!'}
-  - {t: KP 2, h: '@'}
+  - {t: '1', h: '!'}
+  - {t: '2', h: '@'}
   - {t: '3', h: '#', s: '#'}
-  - {t: KP 4, h: $}
-  - {t: KP 5, h: '%'}
+  - {t: '4', h: $}
+  - {t: '5', h: '%', s: '%'}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: KP 6, h: ^}
-  - {t: KP 7, h: '&'}
-  - {t: KP 8, h: '*'}
-  - {t: KP 9, h: (}
-  - {t: KP 0, h: )}
+  - {t: '6', h: ^}
+  - {t: '7', h: '&', s: '&'}
+  - {t: '8', h: '*'}
+  - {t: '9', h: (, s: (}
+  - {t: '0', h: ), s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q

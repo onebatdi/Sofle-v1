@@ -9,9 +9,9 @@ layers:
   - {t: '5', h: '%', s: '%'}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '6', h: ^}
+  - {t: '6', h: ^, s: ^}
   - {t: '7', h: '&', s: '&'}
-  - {t: '8', h: '*'}
+  - {t: '8', h: '*', s: '*'}
   - {t: '9', h: (, s: (}
   - {t: '0', h: ), s: )}
   - {t: '$$mdi:backspace$$', type: backspace}

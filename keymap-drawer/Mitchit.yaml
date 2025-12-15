@@ -46,8 +46,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
-  - C
-  - V
+  - {t: C, h: Ctl+C}
+  - {t: V, h: Ctl+V}
   - B
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -60,7 +60,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:backspace-reverse-outline$$
-  - Lower Layer
+  - {t: '$$mdi:keyboard-space$$', h: Lower Layer}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-down-bold$$

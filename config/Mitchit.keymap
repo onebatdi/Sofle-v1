@@ -117,11 +117,11 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp ESC         &mt EXCL NUMBER_1  &mt AT NUMBER_2  &mt HASH N3           &mt DOLLAR NUMBER_4  &mt PERCENT N5  &kp UP     &mmv MOVE_UP     &mt CARET N6  &mt AMPS N7            &mt ASTRK N8         &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &kp BACKSPACE
-&kp TAB         &kp Q              &kp W            &kp E                 &kp R                &kp T           &kp LEFT   &mmv MOVE_RIGHT  &kp Y         &kp U                  &kp I                &kp O                    &kp P                     &kp EQUAL
-&kp LSHIFT      &kp A              &kp S            &kp D                 &kp F                &lt 1 G         &mkp LCLK  &mkp RCLK        &kp H         &kp J                  &kp K                &kp L                    &mt COLON SEMI            &mt RIGHT_SHIFT ENTER
-&kp LEFT_SHIFT  &kp Z              &mt LC(X) X      &mt LC(C) C           &mt LC(V) V          &kp B           &kp RIGHT  &mmv MOVE_LEFT   &kp N         &kp M                  &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION FSLH         &mt RIGHT_SHIFT APOS
-&kp LALT        &kp LEFT_GUI       &kp DEL          &mt LEFT_SHIFT SPACE  &mt LCTRL SPACE      &kp RET         &kp DOWN   &mmv MOVE_DOWN   &kp RET       &mt RIGHT_SHIFT SPACE  &mt RSHIFT ENTER     &kp SPACE                &kp LEFT_GUI              &kp RIGHT_CONTROL
+&kp ESC         &mt EXCL NUMBER_1  &mt AT NUMBER_2     &mt HASH N3           &mt DOLLAR NUMBER_4  &mt PERCENT N5  &kp UP     &mmv MOVE_UP     &mt CARET N6  &mt AMPS N7      &mt ASTRK N8         &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &kp BACKSPACE
+&kp TAB         &kp Q              &kp W               &kp E                 &kp R                &kp T           &kp LEFT   &mmv MOVE_RIGHT  &kp Y         &kp U            &kp I                &kp O                    &kp P                     &kp EQUAL
+&kp LSHIFT      &kp A              &kp S               &kp D                 &kp F                &lt 1 G         &mkp LCLK  &mkp RCLK        &kp H         &kp J            &kp K                &kp L                    &mt COLON SEMI            &mt RIGHT_SHIFT ENTER
+&kp LEFT_SHIFT  &kp Z              &mt LC(X) X         &mt LC(C) C           &mt LC(V) V          &kp B           &kp RIGHT  &mmv MOVE_LEFT   &kp N         &kp M            &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt QUESTION FSLH         &mt RIGHT_SHIFT APOS
+&kp LALT        &kp LEFT_GUI       &mt LEFT_SHIFT DEL  &mt LEFT_SHIFT SPACE  &mt LCTRL SPACE      &kp RET         &kp DOWN   &mmv MOVE_DOWN   &kp RET       &mt RCTRL SPACE  &kp ENTER            &kp RIGHT_SHIFT          &kp LEFT_GUI              &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_RL>;
